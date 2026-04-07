@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { SECTION_MAP, getLessonTitleFromSlug, normalizeSlug } from './sections';
 import type { LessonMeta } from '@/types';
 
-const ROAD_MAP_BASE = path.resolve(process.cwd(), '../net-learning-road-map');
+const ROAD_MAP_BASE = path.resolve(process.cwd(), 'content/net-learning-road-map');
 
 /** Recursively find all file paths matching a pattern under a directory */
 function findFiles(dir: string, pattern: RegExp): string[] {
