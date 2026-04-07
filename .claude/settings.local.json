@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//dev/**)",
+      "Read(//c/Users/KHOI NGUYEN/**)",
+      "Read(//c/Users/KHOI NGUYEN/net-learning-hub/**)",
+      "Read(//c/Users/KHOI NGUYEN/net-learning-hub/src/**)",
+      "Bash(npx tsc:*)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(node --input-type=module)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(node node_modules/typescript/bin/tsc --noEmit)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s http://localhost:3000 -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(NEXT_TURBOPACK=0 npx next dev --port 3456)",
+      "Bash(systeminfo)",
+      "Bash(node -p \"process.arch\")",
+      "Bash(ls \"/c/Users/KHOI NGUYEN/Desktop/Learning Again/net-learning-hub/node_modules/@next/swc-\"*)",
+      "Bash(node:*)",
+      "Bash(npm rebuild:*)",
+      "Bash(rm:*)",
+      "Bash(curl -s http://localhost:3456 -o /dev/null -w \"%{http_code}\")",
+      "Bash(grep:*)",
+      "Bash(curl -s http://localhost:3456/api/lessons)",
+      "Bash(curl -s http://localhost:3456 -o /dev/null -w \"status: %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:3456/lesson/1.CSharpBasic/L101HelloWorld\" -o /dev/null -w \"lesson page: %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:3456)",
+      "Bash(curl -s \"http://localhost:3456/lesson/1.CSharpBasic/L101HelloWorld\")",
+      "Bash(node_modules\\\\.bin\\\\next --version)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:v for k,v in d.get\\('exports',{}\\).items\\(\\) if 'onig' in k or 'wasm' in k.lower\\(\\) or 'javascript' in k.lower\\(\\)}, indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d.get\\('version',''\\)\\)\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(powershell -Command \"Stop-Process -Id 72480 -Force\")",
+      "Bash(npm run:*)",
+      "Bash(taskkill:*)",
+      "Bash(tasklist)"
+    ]
+  }
+}
